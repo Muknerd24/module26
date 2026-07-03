@@ -1,3 +1,25 @@
+import rahim from "../assets/images/rahim.png";
+import karim from "../assets/images/karim.png";
+import nusrat from "../assets/images/nusrat.png";
+import sakib from "../assets/images/sakib.png";
+import tamim from "../assets/images/tamim.png";
+import ayesha from "../assets/images/ayesha.png";
+import mehedi from "../assets/images/mehedi.png";
+import fatema from "../assets/images/fatema.png";
+import rakib from "../assets/images/rakib.png";
+import mim from "../assets/images/mim.png";
+import shanto from "../assets/images/shanto.png";
+import priya from "../assets/images/priya.png";
+import jahidul from "../assets/images/jahidul.png";
+import ritu from "../assets/images/ritu.png";
+import nayeem from "../assets/images/nayeem.png";
+import sadia from "../assets/images/sadia.png";
+import arif from "../assets/images/arif.png";
+import tasnia from "../assets/images/tasnia.png";
+import rifat from "../assets/images/rifat.png";
+import sumaiya from "../assets/images/sumaiya.png";
+
+
 const students = [
   {
     id: 1,
@@ -5,6 +27,7 @@ const students = [
     department: "CSE",
     cgpa: 3.75,
     isActive: true,
+    image: rahim,
   },
   {
     id: 2,
@@ -12,6 +35,7 @@ const students = [
     department: "EEE",
     cgpa: 3.42,
     isActive: false,
+    image: karim,
   },
   {
     id: 3,
@@ -19,6 +43,7 @@ const students = [
     department: "BBA",
     cgpa: 3.91,
     isActive: true,
+    image: nusrat,
   },
   {
     id: 4,
@@ -26,6 +51,7 @@ const students = [
     department: "CSE",
     cgpa: 3.28,
     isActive: true,
+    image: sakib,
   },
   {
     id: 5,
@@ -33,6 +59,7 @@ const students = [
     department: "Civil",
     cgpa: 2.95,
     isActive: false,
+    image: tamim,
   },
   {
     id: 6,
@@ -40,6 +67,7 @@ const students = [
     department: "Pharmacy",
     cgpa: 3.85,
     isActive: true,
+    image: ayesha,
   },
   {
     id: 7,
@@ -47,6 +75,7 @@ const students = [
     department: "Mechanical",
     cgpa: 3.14,
     isActive: true,
+    image: mehedi,
   },
   {
     id: 8,
@@ -54,6 +83,7 @@ const students = [
     department: "English",
     cgpa: 3.67,
     isActive: false,
+    image: fatema,
   },
   {
     id: 9,
@@ -61,6 +91,7 @@ const students = [
     department: "CSE",
     cgpa: 3.98,
     isActive: true,
+    image: rakib,
   },
   {
     id: 10,
@@ -68,6 +99,7 @@ const students = [
     department: "Economics",
     cgpa: 2.87,
     isActive: false,
+    image: mim,
   },
   {
     id: 11,
@@ -75,6 +107,7 @@ const students = [
     department: "Law",
     cgpa: 3.49,
     isActive: true,
+    image: shanto,
   },
   {
     id: 12,
@@ -82,6 +115,7 @@ const students = [
     department: "BBA",
     cgpa: 3.79,
     isActive: true,
+    image: priya,
   },
   {
     id: 13,
@@ -89,6 +123,7 @@ const students = [
     department: "EEE",
     cgpa: 3.26,
     isActive: false,
+    image: jahidul,
   },
   {
     id: 14,
@@ -96,6 +131,7 @@ const students = [
     department: "Architecture",
     cgpa: 3.89,
     isActive: true,
+    image: ritu,
   },
   {
     id: 15,
@@ -103,6 +139,7 @@ const students = [
     department: "Textile",
     cgpa: 3.05,
     isActive: false,
+    image: nayeem,
   },
   {
     id: 16,
@@ -110,6 +147,7 @@ const students = [
     department: "CSE",
     cgpa: 3.94,
     isActive: true,
+    image: sadia,
   },
   {
     id: 17,
@@ -117,6 +155,7 @@ const students = [
     department: "Accounting",
     cgpa: 2.74,
     isActive: false,
+    image: arif,
   },
   {
     id: 18,
@@ -124,6 +163,7 @@ const students = [
     department: "Physics",
     cgpa: 3.58,
     isActive: true,
+    image: tasnia,
   },
   {
     id: 19,
@@ -131,6 +171,7 @@ const students = [
     department: "Chemistry",
     cgpa: 3.31,
     isActive: true,
+    image: rifat,
   },
   {
     id: 20,
@@ -138,6 +179,7 @@ const students = [
     department: "Mathematics",
     cgpa: 3.99,
     isActive: true,
+    image: sumaiya,
   },
 ];
 

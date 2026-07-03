@@ -1,6 +1,6 @@
 import StudentCard from "./StudentCard";
 
-function StudentList({ students }) {
+function StudentList({ students, deleteStudent }) {
   return (
     <div
       style={{
@@ -18,6 +18,9 @@ function StudentList({ students }) {
           department={student.department}
           cgpa={student.cgpa}
           isActive={student.isActive}
+          image={student.image}
+          deleteStudent = {deleteStudent}
+          
         />
       ))}
     </div>
