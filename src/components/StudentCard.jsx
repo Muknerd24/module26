@@ -78,21 +78,24 @@ function StudentCard({
       </p>
 
       <button
-        onClick={() => deleteStudent(id)}
-        style={{
-          width: "100%",
-          marginTop: "20px",
-          padding: "10px",
-          backgroundColor: "#dc2626",
-          color: "#fff",
-          border: "none",
-          borderRadius: "6px",
-          cursor: "pointer",
-          fontSize: "16px",
-        }}
-      >
-        Delete
-      </button>
+  onClick={() => {
+    
+    deleteStudent(id);
+  }}
+  style={{
+    width: "100%",
+    marginTop: "20px",
+    padding: "10px",
+    backgroundColor: "#dc2626",
+    color: "#fff",
+    border: "none",
+    borderRadius: "6px",
+    cursor: "pointer",
+    fontSize: "16px",
+  }}
+>
+  Delete
+</button>
     </div>
   );
 }

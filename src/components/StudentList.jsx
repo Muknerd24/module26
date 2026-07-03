@@ -14,6 +14,7 @@ function StudentList({ students, deleteStudent }) {
       {students.map((student) => (
         <StudentCard
           key={student.id}
+          id={student.id}
           name={student.name}
           department={student.department}
           cgpa={student.cgpa}
