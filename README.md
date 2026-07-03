@@ -85,4 +85,4 @@ While building this project, I practiced:
 
 ## Author
 
-**Mohammad Ullahq**
+**Mohammad Ullah**
